@@ -633,12 +633,19 @@ body {
   background-color: #333;
   display: grid;
   place-items: center;
-  transition: all .5s ease-out;
+  transition: all .4s cubic-bezier(1,0,1,1);
   transform: translateY(-100%); 
 }
 
+.hovercaps .caption.blue{
+  background-color: #039;
+}
+
+
+
 .hovercaps a:hover .caption {
  transform: translateY(0);
+ 
 }
 
 .hovercaps h3 {
