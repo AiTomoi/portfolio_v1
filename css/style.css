@@ -384,10 +384,18 @@ li {
   padding: 1em;
 }
 
-.site-navigation li.selected a {
-  border-bottom: 0.05em solid #dedede;
-  padding-bottom: 0.95em;
+.site-navigation li.selected a:after{
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: rgb(185,35,77);
+background: linear-gradient(90deg, rgba(185,35,77,1) 0%, rgba(0,20,255,1) 100%);
+  display: block;
+  /* border-bottom: 0.05em solid #dedede; */
+  padding: 0;
   color: #999;
+ 
+  margin:5px auto 0 auto;
 }
 
 /* Main Site Section (Main Content Area) */
