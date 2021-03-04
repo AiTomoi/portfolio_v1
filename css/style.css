@@ -643,10 +643,22 @@ body {
   place-items: center;
   transition: all .4s cubic-bezier(1,0,1,1);
   transform: translateY(-100%); 
+  font-family: "mr-eaves-xl-modern"
 }
 
 .hovercaps .caption.blue{
   background-color: #039;
+  transform: translateX(-100%); 
+}
+
+.hovercaps .caption.purple{
+  background-color: rgb(141, 12, 226);
+  transform: translateX(-100%); 
+}
+
+.hovercaps .caption.turquoize{
+  background-color: rgb(16, 86, 236);
+  transform: translateX(-100%); 
 }
 
 
