@@ -555,7 +555,7 @@ body {
 
 @media (min-width: 768px) {
     .thumbgrid li {
-        width: 33.3333%;
+        width: 33.333%;
     }
 }
 
@@ -625,6 +625,7 @@ body {
   display: block;
   position: relative;
   overflow: hidden;
+  color: white;
 }
 
 .hovercaps img {
@@ -638,33 +639,34 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #333;
+  border:  none;
+  background-color: rgba(0,0,0,.5);
   display: grid;
   place-items: center;
   transition: all .4s cubic-bezier(1,0,1,1);
-  transform: translateY(-100%); 
-  font-family: "mr-eaves-xl-modern"
+  transform: translate(-101%,0); 
+  font-family: "mr-eaves-xl-modern";
 }
 
 .hovercaps .caption.blue{
-  background-color: #039;
-  transform: translateX(-100%); 
+  background-color: rgba(0, 51, 153,.5);
+  transform: translate(101%,0%);  
 }
 
 .hovercaps .caption.purple{
-  background-color: rgb(141, 12, 226);
-  transform: translateX(-100%); 
+  background-color: rgba(141, 12, 226,.5);
+  transform: translate(0,101%);  
 }
 
 .hovercaps .caption.turquoize{
-  background-color: rgb(16, 86, 236);
-  transform: translateX(-100%); 
+  background-color: rgba(97, 99, 104, 0.5);
+  transform: translate(0,-101%); 
 }
 
 
 
 .hovercaps a:hover .caption {
- transform: translateY(0);
+transform: translate(0,0); 
  
 }
 
