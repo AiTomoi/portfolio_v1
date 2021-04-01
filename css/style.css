@@ -65,34 +65,56 @@ h1 {
 }
 
 .citylogo h1,
-.trilogy h1 {
+.trilogy h1,
+.dole h1 {
     text-align: center;
-    font-family: "mr-eaves-xl-modern", Helvetica, Arial, sans-serif;
-    font-weight: 900;
-    font-size: 6em;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4em;
 }
 
 .citylogo h2,
-.trilogy h2 {
+.trilogy h2,
+.dole h2,
+.brochure h2 {
     text-align: center;
     font-family: "Mrs Eaves Roman Lining", Helvetica, Arial, sans-serif;
     font-weight: 900;
     font-size: 4em;
     padding-top: 2.5em;
+    color: rgba(64, 61, 61, 1);
 }
 
-.citylogo h3 {
+.citylogo h3,
+.trilogy h3,
+.brochure h3 {
     font-family: "Mrs Eaves Roman Lining", Helvetica, Arial, sans-serif;
     font-weight: 100;
     text-align: center;
     font-size: 1.6em;
-    padding-top: 3em;
+    padding-top: 5em;
+}
+
+h4 {
+    text-align: center;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 
 .p2 p {}
 
-.citylogo .subheader {
+.citylogo .subheader,
+.trilogy .subheader {
     font-size: 2em;
+    padding-top: 4em;
+}
+
+.citylogo .two-thirds column centered {
+    color: rgba(64, 61, 61, 1);
 }
 
 .site-navigation li a:hover,
@@ -371,6 +393,11 @@ body {
         float: right;
         margin-right: 0;
         margin-left: 8%;
+    }
+    .orderswap2 .one-third.column {
+        float: left;
+        margin-right: 8%;
+        margin-left: 0;
     }
     .orderswap .one-third.column:last-child {
         margin-left: 0;
